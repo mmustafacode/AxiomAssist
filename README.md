@@ -112,3 +112,4 @@ Currently, the design follows a **"Deep Cosmos"** aesthetic:
 _Full Stack Developer & AI Enthusiast_
 
 If you like this project, don't forget to give it a ⭐️!
+i
