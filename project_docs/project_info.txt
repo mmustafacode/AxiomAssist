@@ -1,0 +1,72 @@
+PROJECT DOCUMENTATION
+=====================
+
+PROJECT DETAILS
+---------------
+Project Name: Axiom Assist
+Type: AI-Powered Web Application
+Framework: Next.js 16 (React 19)
+Database: MongoDB (via Mongoose)
+Authentication: NextAuth.js
+AI Provider: Groq (via Vercel AI SDK)
+Styling: Tailwind CSS
+
+
+PROJECT INTRODUCTION
+--------------------
+Axiom Assist is an advanced AI assistant application designed to provide intelligent support and interaction. 
+It utilizes the latest web technologies to deliver a fast, responsive, and secure user experience. 
+The backend handles user authentication and connects to an AI provider (Groq) to generate responses or perform tasks.
+
+UI TYPE
+-------
+The User Interface is designed to be:
+- Modern and Clean: Utilizing Tailwind CSS for a sleek, utility-first design.
+- Responsive: Fully adapting to different screen sizes (desktop, tablet, mobile).
+- Interactive: Enhanced with Framer Motion for smooth transitions and animations.
+- Intuitive: Featuring standard navigation elements (Sidebar) and clear visual cues using Lucide React icons.
+
+APPLICATION PAGES & STRUCTURE
+-----------------------------
+1. HOME PAGE (Route: /)
+   - Purpose: Landing page introducing Axiom Assist.
+   - UI Elements: Hero section with "Get Started" call-to-action, feature highlights, and navigation bar.
+
+2. AUTHENTICATION
+   - LOGIN (Route: /auth/signin): Secure login form for existing users.
+   - REGISTER (Route: /auth/register): Sign-up form for new account creation.
+   - UI Features: Clean, centered cards with form validation and feedback.
+
+3. CHAT INTERFACE (Route: /chat)
+   - Purpose: The core functional area where users interact with the AI.
+   - UI Layout: 
+     - Sidebar: For navigation and potentially chat history.
+     - Chat Window: Main conversation area with message bubbles (User vs. AI).
+     - Input Area: Text field at the bottom for typing prompts.
+
+
+USAGE
+-----
+This project is intended for:
+- Providing AI-driven assistance to users.
+- Demonstrating a full-stack Next.js application with robust features (Auth, DB, AI).
+- serving as a template or base for building personalized AI tools.
+
+API CONFIGURATION & KEYS
+------------------------
+(SECURITY WARNING: These keys grant access to services. Do not share this file publicly or commit to version control if it allows public access.)
+
+1. DATABASE (MongoDB)
+   Key: MONGODB_URI
+   Value: [REDACTED]
+
+2. AUTHENTICATION (NextAuth)
+   Key: NEXTAUTH_URL
+   Value: http://localhost:3000
+   
+   Key: NEXTAUTH_SECRET
+   Value: [REDACTED]
+
+3. AI SERVICE (Groq)
+   Key: GROQ_API_KEY
+   Value: [REDACTED]
