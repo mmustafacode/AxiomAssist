@@ -39,7 +39,7 @@ export default async function Home() {
               <ArrowRight size={20} />
             </Link>
             <Link
-              href="https://github.com/axiomassist"
+              href="https://github.com/mmustafacode/AxiomAssist.git"
               className="px-8 py-4 bg-secondary text-secondary-foreground text-lg rounded-full font-semibold hover:bg-secondary/80 transition-all"
             >
               See How I Work
